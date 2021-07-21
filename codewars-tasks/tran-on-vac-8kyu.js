@@ -4,3 +4,4 @@ function rentalCarCost(d) {
   
     return d * costPerDay - discount;
   }
+   console.log(rentalCarCost(5));
