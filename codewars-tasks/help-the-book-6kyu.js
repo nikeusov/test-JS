@@ -1,5 +1,5 @@
 function stockList(listOfBooks, listOfCat){
-    if(!listOfBooks.length || !listOfCat.length)
+    if(!listOfBooks.length || !listOfCat.length) // - часто используемая проверка
       return '';
 
     const booksByCategory = {};

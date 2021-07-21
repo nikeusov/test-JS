@@ -60,13 +60,13 @@
 
 // 4 Типы данных (data types)
 
-// const isProgrammer = true
-// const name = 'Nikita'
+//const isProgrammer = true
+//const name = 'Nikita'
 // const age = 24
 // let x
 // const x - err; надо в любом случае внести в const по умолчанию что нибудь
-// console.log(typeof isProgrammer)
-// console.log(typeof name)
+//console.log(typeof isProgrammer)
+//console.log(typeof name)
 // console.log(typeof age)
 // console.log(typeof x)
 // console.log(null)
