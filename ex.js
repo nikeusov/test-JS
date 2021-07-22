@@ -75,9 +75,91 @@
 
 // 5 Приоритет операторов (operator priority)
 
+//const fullAge = 24
+//const birthYear = 1996
+//const currentYear = 2021
 
+// < > <= >= - операторы сравнения
+//const isFullAge = currentYear - birthYear >= fullAge  // 24 >= 25 => true
+//console.log(isFullAge);
 
+//end operator priority
 
+// 6 Условные операторы (conditional Operators)
+
+// const courseStatus = 'fail' // ready, fail, pending - статусы
+
+// if (courseStatus === 'ready') {
+//     console.log('Курс уже готов');
+// } else if (courseStatus === 'pending') {
+//     console.log('Курс разрабатывается');
+// } else {
+//     console.log('Не вышло!');
+// }
+
+// const isReady = true
+
+// if (isReady) {
+//     console.log('Все готово!');
+// } else {
+//     console.log('Все не готов!');
+// }
+
+// isReady ? console.log('Все готово!') : console.log('Все не готово!'); // тернарное выражение
+
+// const num1 = 42 // число
+// const num2 = '42' // строка
+
+// console.log(num1 === num2); // забываем ==, пользуемся только ===
+
+// end conditional Operators
+
+// 7 Булевая логика (boolean logic)
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
+
+// end boolean logic
+
+// 8 Функции (function)
+
+// function calculateAge(year) {
+//     return 2021 - year
+// } 
+
+// const myAge = calculateAge(1996)
+
+// console.log(myAge);
+// console.log(calculateAge(1990));
+// console.log(calculateAge(2300));
+
+// function logInfoAbout(name, year) {
+//     const age = calculateAge(year)
+// 
+//     if (age > 0) {
+//         console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age);
+//     } else {
+//         console.log('Это футуре');
+//     }
+// 
+//     
+// }
+
+// logInfoAbout('Никита', 1996)
+
+// end function
+
+// 9 Массивы (arrays)
+
+// const cars = ['Хендэ', 'Мерс', 'Форд'] // - так правильно
+// const cars = new Array('Хендэ', 'Мерс', 'Форд')
+// console.log(cars.length);
+// console.log(cars[2]);
+
+// cars[2] = 'Киа'
+// cars[cars.length] = 'Мазда'
+// console.log(cars);
+
+// end arrays
 
 
 
